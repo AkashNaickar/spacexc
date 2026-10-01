@@ -1,0 +1,15 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+
+# Vercel CLI
+.vercel
