@@ -12,7 +12,7 @@
 
 ## Features
 
-- **Scroll-snapped mission landing** — the home page stacks full-viewport sections for completed, recent and upcoming missions (FRAM2, Starlink, SES-22, Globalstar FM15, Crew-9 and Human Spaceflight).
+- **Full-viewport mission landing** — the home page stacks full-height (`100vh`) sections with background imagery for completed, recent and upcoming missions (FRAM2, Starlink, SES-22, Globalstar FM15, Crew-9 and Human Spaceflight).
 - **Vehicle pages** — dedicated Falcon 9, Falcon Heavy and Dragon pages with hero imagery, headline stats and an on-scroll counter animation.
 - **Shop grid** — a responsive merchandise catalogue (3 columns on desktop, 2 on tablet, 1 on mobile) with hover image swaps and pricing.
 - **Client-side account demo** — log-in and sign-up tabs with email and password-strength validation; the session is stored in `localStorage` and reflected in the header and mobile menu, with a working logout.
