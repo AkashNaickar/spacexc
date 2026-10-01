@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SpaceX-style landing page highlighting recent and upcoming missions."
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <script src="js/script.js" defer></script>
@@ -60,7 +64,7 @@
       <div id="user-profile" class="user-profile hidden">
         <div class="user-name" id="display-name">USER NAME</div>
         <div class="user-email" id="display-email">user@example.com</div>
-        <button class="logout-btn" id="logout-btn">LOGOUT</button>
+        <button class="logout-btn" id="logout-btn" type="button">LOGOUT</button>
       </div>
       <ul>
         <li><a href="#">Mission</a></li>
@@ -101,7 +105,7 @@
     </header>
 
     <!-- Hamburger Menu -->
-    <button id="menu-btn" class="hamburger" type="button">
+    <button id="menu-btn" class="hamburger" type="button" aria-label="Toggle navigation menu">
       <span class="hamburger-top"></span>
       <span class="hamburger-middle"></span>
       <span class="hamburger-bottom"></span>

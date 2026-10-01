@@ -359,15 +359,15 @@ footer ul li a:hover {
 
 /* Inner Pages */
 .bg-falcon-9 {
-  background-image: url('../img/dragon.webp');
-}
-
-.bg-falcon-heavy {
   background-image: url('../img/falcon-9.webp');
 }
 
-.bg-dragon {
+.bg-falcon-heavy {
   background-image: url('../img/falcon-heavy.webp');
+}
+
+.bg-dragon {
+  background-image: url('../img/dragon.webp');
 }
 
 .section-animate {
